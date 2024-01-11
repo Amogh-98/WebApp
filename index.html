@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node.js Web Application</title>
+        <style>
+        body {
+            font-family:'Franklin Gothic Medium';
+            margin: 20px;
+            text-align: center;
+        }
+    
+        h1 {
+            color: #333;
+        }
+    
+        form {
+            max-width: 300px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+    
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #333;
+        }
+    
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+    
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    
+        a {
+            color: #4caf50;
+            text-decoration: none;
+            margin-top: 10px;
+            display: inline-block;
+        }
+    </style>
+    </title>
+</head>
+<body>
+    <h1>Welcome to the Node.js Sample Web Application!</h1>
+    <p>2024</p>
+    <form action="/greet" method="post">
+        <label for="name">Enter your name:</label>
+        <input type="text" id="name" name="name">
+        <button type="submit">Greet me!</button>
+    </form>
+</body>
+</html>
